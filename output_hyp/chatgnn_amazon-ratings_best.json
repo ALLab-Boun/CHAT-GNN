@@ -1,0 +1,32 @@
+{
+    "sweep_id": "oiwht5lo",
+    "summary": {
+        "_wandb": {
+            "runtime": 1346
+        },
+        "test_std": 0.3,
+        "test_mean": 53.4,
+        "train_loss": 1.398,
+        "_timestamp": 1705173672.6546886,
+        "_step": 0,
+        "val_std": 0.1,
+        "_runtime": 1347.0047705173492,
+        "val_loss": 1.36,
+        "val_mean": 53.7
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 6,
+        "save_model": true,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "post_transform": false,
+        "initial_dropout": false
+    }
+}

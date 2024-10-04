@@ -1,0 +1,28 @@
+{
+    "sweep_id": "s2x34qoz",
+    "summary": {
+        "_step": 0,
+        "_runtime": 36.17113471031189,
+        "test_std": 6.4,
+        "val_loss": 0.316,
+        "_wandb": {
+            "runtime": 35
+        },
+        "val_std": 1.6,
+        "val_mean": 90.4,
+        "test_mean": 82,
+        "_timestamp": 1703417636.6569667,
+        "train_loss": 0.305
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

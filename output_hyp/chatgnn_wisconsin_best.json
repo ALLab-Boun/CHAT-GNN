@@ -1,0 +1,32 @@
+{
+    "sweep_id": "0h9sgz1o",
+    "summary": {
+        "test_mean": 89.5,
+        "_timestamp": 1705347065.4314098,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 36
+        },
+        "test_std": 4,
+        "val_loss": 0.301,
+        "val_mean": 90,
+        "val_std": 2.7,
+        "_runtime": 37.57331681251526,
+        "train_loss": 0.234
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 128,
+        "weight_decay": 0.0005,
+        "post_transform": false,
+        "initial_dropout": true
+    }
+}

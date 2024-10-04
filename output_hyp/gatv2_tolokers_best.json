@@ -1,0 +1,30 @@
+{
+    "sweep_id": "zzwevt49",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 245
+        },
+        "test_std": 0.3,
+        "val_loss": 0.499,
+        "test_mean": 73.6,
+        "val_std": 1.2,
+        "_runtime": 246.49723720550537,
+        "val_mean": 73.6,
+        "_timestamp": 1700909316.6821952,
+        "train_loss": 0.502
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 96,
+        "weight_decay": 0.0001
+    }
+}

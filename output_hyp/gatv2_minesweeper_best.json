@@ -1,0 +1,30 @@
+{
+    "sweep_id": "1swyav40",
+    "summary": {
+        "_runtime": 94.7210111618042,
+        "test_std": 1.2,
+        "_timestamp": 1700866804.8831942,
+        "train_loss": 0.462,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 93
+        },
+        "val_std": 0.8,
+        "val_loss": 0.461,
+        "val_mean": 73,
+        "test_mean": 74
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "n_heads": 4,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hhidden_size": 256,
+        "weight_decay": 0.0005
+    }
+}

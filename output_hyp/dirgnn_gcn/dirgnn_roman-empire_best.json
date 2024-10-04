@@ -1,0 +1,32 @@
+{
+    "sweep_id": "w25ob55x",
+    "summary": {
+        "train_loss": 0.069,
+        "_wandb": {
+            "runtime": 72
+        },
+        "val_std": 0,
+        "val_loss": 0.304,
+        "test_mean": 90.6,
+        "_timestamp": 1703989232.551638,
+        "_step": 0,
+        "_runtime": 73.58576822280884,
+        "test_std": 0,
+        "val_mean": 91
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "dirgnn",
+        "n_runs": 1,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "dir_conv": "gcn",
+        "loglevel": "error",
+        "dir_alpha": 0.5,
+        "layer_norm": false,
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "sweep_id": "vis5lj73",
+    "summary": {
+        "test_mean": 36.3,
+        "_timestamp": 1703370613.015771,
+        "train_loss": 1.397,
+        "_step": 0,
+        "test_std": 0.4,
+        "_runtime": 94.80582284927368,
+        "val_loss": 1.394,
+        "val_mean": 37.7,
+        "_wandb": {
+            "runtime": 93
+        },
+        "val_std": 0.5
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 1,
+        "save_model": true,
+        "hidden_size": 16,
+        "weight_decay": 0.0005
+    }
+}

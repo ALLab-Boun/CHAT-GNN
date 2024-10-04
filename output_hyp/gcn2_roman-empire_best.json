@@ -1,0 +1,30 @@
+{
+    "sweep_id": "wd4gbi3t",
+    "summary": {
+        "train_loss": 0.391,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 323
+        },
+        "val_std": 0.5,
+        "test_std": 0.1,
+        "test_mean": 82.6,
+        "_timestamp": 1703341513.6756675,
+        "_runtime": 323.7478914260864,
+        "val_loss": 0.386,
+        "val_mean": 83.3
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.1,
+        "num_layers": 4,
+        "theta_gcn2": 1.5,
+        "hidden_size": 512,
+        "weight_decay": 0.0001
+    }
+}

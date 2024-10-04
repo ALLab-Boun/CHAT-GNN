@@ -1,0 +1,30 @@
+{
+    "sweep_id": "b9l5nmur",
+    "summary": {
+        "val_std": 2.1,
+        "test_mean": 65.5,
+        "val_mean": 66.7,
+        "_timestamp": 1703295736.7151418,
+        "train_loss": 0.721,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 154
+        },
+        "_runtime": 155.04980278015137,
+        "test_std": 3.2,
+        "val_loss": 0.787
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.1,
+        "num_layers": 4,
+        "theta_gcn2": 1.5,
+        "hidden_size": 512,
+        "weight_decay": 0.0001
+    }
+}

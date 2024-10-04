@@ -1,0 +1,32 @@
+{
+    "sweep_id": "cur87fo7",
+    "summary": {
+        "_runtime": 39.29555940628052,
+        "test_std": 6.7,
+        "val_mean": 93.8,
+        "test_mean": 84.7,
+        "_timestamp": 1705312778.2420163,
+        "_wandb": {
+            "runtime": 38
+        },
+        "val_std": 2.1,
+        "val_loss": 0.387,
+        "train_loss": 0.367,
+        "_step": 0
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 256,
+        "weight_decay": 0.0001,
+        "post_transform": false,
+        "initial_dropout": true
+    }
+}

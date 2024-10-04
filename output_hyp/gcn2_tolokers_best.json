@@ -1,0 +1,30 @@
+{
+    "sweep_id": "w7tvvjjx",
+    "summary": {
+        "val_loss": 0.454,
+        "val_mean": 78,
+        "_wandb": {
+            "runtime": 158
+        },
+        "val_std": 0.5,
+        "test_std": 0.8,
+        "_timestamp": 1703366910.2783887,
+        "train_loss": 0.449,
+        "_step": 0,
+        "_runtime": 159.24830865859985,
+        "test_mean": 77.1
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 2,
+        "theta_gcn2": 1.5,
+        "hidden_size": 96,
+        "weight_decay": 0.0001
+    }
+}

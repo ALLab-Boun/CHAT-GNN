@@ -1,0 +1,31 @@
+{
+    "sweep_id": "obozp21j",
+    "summary": {
+        "test_std": 0.3,
+        "val_mean": 82.2,
+        "test_mean": 78.6,
+        "train_loss": 0.657,
+        "_timestamp": 1700707852.434231,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 154
+        },
+        "val_std": 0.3,
+        "_runtime": 155.20318913459778,
+        "val_loss": 0.784
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "citeseer",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0005,
+        "multi_out_heads": false
+    }
+}

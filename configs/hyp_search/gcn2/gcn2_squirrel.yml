@@ -1,0 +1,24 @@
+name: gcn2_squirrel
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    alpha_gcn2:
+      values: [0.1, 0.2, 0.3, 0.4, 0.5]
+    dataset: {value: squirrel}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 128, 256]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: gcn2}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 4, 6, 8, 10]
+    theta_gcn2:
+      values: [0.5, 1, 1.5]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

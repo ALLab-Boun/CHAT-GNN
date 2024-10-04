@@ -1,0 +1,26 @@
+name: dir_gcn_roman-empire
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: roman-empire}
+    loglevel: {value: error}
+    model: {value: dirgnn}
+    dir_conv: {value: gcn}
+    n_runs: {value: 1}
+    jk_mode: {value: "cat"}
+    layer_norm: {value: false}
+    dropout:
+      values: [0, 0.5]
+    hidden_size:
+      values: [64, 128, 256]
+    lr:
+      values: [0.005, 0.01]
+    dir_alpha:
+      values: [0, 0.5, 1]
+    num_layers:
+      values: [2, 4, 6, 8]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

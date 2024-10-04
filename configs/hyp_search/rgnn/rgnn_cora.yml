@@ -1,0 +1,20 @@
+name: rgnn_cora
+sweep_config:
+  entity: 
+  method: grid
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: cora}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 128, 256, 512]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: rgnn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 4, 6, 8]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

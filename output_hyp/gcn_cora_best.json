@@ -1,0 +1,28 @@
+{
+    "sweep_id": "5ajl5zyc",
+    "summary": {
+        "train_loss": 0.272,
+        "_wandb": {
+            "runtime": 59
+        },
+        "_runtime": 60.20287322998047,
+        "val_mean": 88.9,
+        "val_loss": 0.449,
+        "test_mean": 87.4,
+        "_timestamp": 1700435504.5068345,
+        "_step": 0,
+        "val_std": 0.1,
+        "test_std": 0.1
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 16,
+        "weight_decay": 0.0001
+    }
+}

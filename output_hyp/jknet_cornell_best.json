@@ -1,0 +1,29 @@
+{
+    "sweep_id": "gn4i74um",
+    "summary": {
+        "test_std": 4.4,
+        "_timestamp": 1703446186.0507162,
+        "train_loss": 0.843,
+        "test_mean": 78.4,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 58
+        },
+        "val_std": 7.3,
+        "_runtime": 59.6004581451416,
+        "val_loss": 0.466,
+        "val_mean": 78
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "jk_mode": "lstm",
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "sweep_id": "n0m3xy28",
+    "summary": {
+        "val_std": 0.5,
+        "_timestamp": 1703630384.920677,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 701
+        },
+        "_runtime": 702.4451339244843,
+        "test_std": 0.6,
+        "val_loss": 0.415,
+        "val_mean": 81.7,
+        "test_mean": 81.1,
+        "train_loss": 0.42
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 1,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 10,
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0005
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "sweep_id": "nhsp3hzq",
+    "summary": {
+        "val_std": 4.3,
+        "test_std": 0.9,
+        "val_loss": 0.303,
+        "test_mean": 83.7,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 61
+        },
+        "_runtime": 62.28490567207336,
+        "val_mean": 87.1,
+        "_timestamp": 1703520475.0796175,
+        "train_loss": 0.399
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "jk_mode": "lstm",
+        "loglevel": "error",
+        "num_layers": 3,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

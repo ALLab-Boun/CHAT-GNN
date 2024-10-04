@@ -1,0 +1,29 @@
+{
+    "sweep_id": "2pbm81bs",
+    "summary": {
+        "_wandb": {
+            "runtime": 259
+        },
+        "test_std": 0.3,
+        "val_loss": 0.262,
+        "test_mean": 89.7,
+        "_timestamp": 1703453683.3542032,
+        "train_loss": 0.267,
+        "_step": 0,
+        "_runtime": 260.1625282764435,
+        "val_mean": 92.7,
+        "val_std": 0.1
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "jk_mode": "max",
+        "loglevel": "error",
+        "num_layers": 5,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

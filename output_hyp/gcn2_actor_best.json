@@ -1,0 +1,31 @@
+{
+    "sweep_id": "423bqdcr",
+    "summary": {
+        "_step": 0,
+        "val_std": 0.5,
+        "_runtime": 108.94639706611632,
+        "val_mean": 37.8,
+        "_timestamp": 1703274289.690159,
+        "_wandb": {
+            "runtime": 108
+        },
+        "test_std": 0.1,
+        "val_loss": 1.356,
+        "test_mean": 36.4,
+        "train_loss": 1.366
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 8,
+        "save_model": true,
+        "theta_gcn2": 1.5,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

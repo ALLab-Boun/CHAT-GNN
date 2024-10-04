@@ -1,0 +1,28 @@
+{
+    "sweep_id": "idjvx44n",
+    "summary": {
+        "_wandb": {
+            "runtime": 29
+        },
+        "_runtime": 30.215842485427856,
+        "test_std": 4.2,
+        "train_loss": 0.199,
+        "_timestamp": 1703418621.0773716,
+        "_step": 0,
+        "val_std": 2.7,
+        "val_loss": 0.189,
+        "val_mean": 87.5,
+        "test_mean": 86.3
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

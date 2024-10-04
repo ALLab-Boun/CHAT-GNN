@@ -1,0 +1,31 @@
+{
+    "sweep_id": "wdhsvhn2",
+    "summary": {
+        "val_std": 3.7,
+        "_runtime": 62.9022490978241,
+        "val_mean": 66.3,
+        "_timestamp": 1700753663.38623,
+        "_step": 0,
+        "test_std": 4.6,
+        "val_loss": 0.848,
+        "test_mean": 68,
+        "train_loss": 0.914,
+        "_wandb": {
+            "runtime": 61
+        }
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0005,
+        "multi_out_heads": true
+    }
+}

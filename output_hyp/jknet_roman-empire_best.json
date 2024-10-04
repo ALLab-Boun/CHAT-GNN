@@ -1,0 +1,29 @@
+{
+    "sweep_id": "7gu9gczm",
+    "summary": {
+        "_runtime": 440.5389196872711,
+        "test_std": 0.4,
+        "val_mean": 79.8,
+        "_timestamp": 1703481568.5255716,
+        "train_loss": 0.601,
+        "_step": 0,
+        "val_std": 0.5,
+        "test_mean": 79.7,
+        "_wandb": {
+            "runtime": 439
+        },
+        "val_loss": 0.593
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 10,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "sweep_id": "ofi6x322",
+    "summary": {
+        "_wandb": {
+            "runtime": 54
+        },
+        "val_std": 0,
+        "_runtime": 54.91400480270386,
+        "_timestamp": 1703946547.81349,
+        "_step": 0,
+        "test_std": 0,
+        "val_loss": 0.859,
+        "val_mean": 82,
+        "test_mean": 77.6,
+        "train_loss": 0.067
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "dirgnn",
+        "n_runs": 1,
+        "dataset": "chameleon",
+        "dropout": 0,
+        "jk_mode": "max",
+        "dir_conv": "gcn",
+        "loglevel": "error",
+        "dir_alpha": 1,
+        "num_layers": 8,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

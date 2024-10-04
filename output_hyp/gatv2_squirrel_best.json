@@ -1,0 +1,30 @@
+{
+    "sweep_id": "dtj5zseq",
+    "summary": {
+        "_step": 0,
+        "val_std": 1.2,
+        "test_std": 1.4,
+        "val_loss": 1.265,
+        "val_mean": 47.9,
+        "test_mean": 49.2,
+        "train_loss": 1.246,
+        "_wandb": {
+            "runtime": 557
+        },
+        "_runtime": 557.9612267017365,
+        "_timestamp": 1700897961.8096766
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

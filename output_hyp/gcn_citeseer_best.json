@@ -1,0 +1,28 @@
+{
+    "sweep_id": "15sc7u1i",
+    "summary": {
+        "val_std": 0.1,
+        "_runtime": 225.1049358844757,
+        "val_loss": 0.754,
+        "val_mean": 82.5,
+        "test_mean": 79.2,
+        "train_loss": 0.609,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 223
+        },
+        "test_std": 0.1,
+        "_timestamp": 1700433415.491408
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "citeseer",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 16,
+        "weight_decay": 0.0005
+    }
+}

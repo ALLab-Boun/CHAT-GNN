@@ -1,0 +1,28 @@
+{
+    "sweep_id": "0f8gv11j",
+    "summary": {
+        "train_loss": 0.45,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 133
+        },
+        "_runtime": 134.22316026687622,
+        "test_std": 0.3,
+        "val_mean": 80.5,
+        "test_mean": 79.8,
+        "_timestamp": 1703406130.4012752,
+        "val_std": 0.3,
+        "val_loss": 0.454
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

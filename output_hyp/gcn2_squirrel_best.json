@@ -1,0 +1,30 @@
+{
+    "sweep_id": "4fgecmqx",
+    "summary": {
+        "val_mean": 52.6,
+        "_timestamp": 1703347075.9976072,
+        "train_loss": 0.797,
+        "val_loss": 0.831,
+        "test_mean": 51.2,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 524
+        },
+        "val_std": 0.5,
+        "_runtime": 525.3288261890411,
+        "test_std": 1.4
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.1,
+        "num_layers": 4,
+        "theta_gcn2": 1.5,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

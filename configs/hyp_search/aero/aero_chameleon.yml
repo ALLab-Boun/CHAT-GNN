@@ -1,0 +1,27 @@
+name: aero_chameleon
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: chameleon}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 128]
+    iterations:
+      values: [4, 8, 16, 32]
+    lambd:
+      values: [0.25, 0.5, 1.0]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: aero}
+    n_runs: {value: 3}
+    num_layers:
+      values: [1, 2]
+    n_heads: {value: 1}
+    weight_decay:
+      values: [0.0001, 0.0005]
+    weight_decay_prop: 
+      values: [0.0001, 0.0005]
+  project: 

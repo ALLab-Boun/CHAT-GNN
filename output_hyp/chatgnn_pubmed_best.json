@@ -1,0 +1,32 @@
+{
+    "sweep_id": "0x2rxzl4",
+    "summary": {
+        "_wandb": {
+            "runtime": 168
+        },
+        "val_std": 0.2,
+        "_runtime": 169.1145875453949,
+        "val_loss": 0.238,
+        "_timestamp": 1705226275.6953197,
+        "train_loss": 0.197,
+        "_step": 0,
+        "test_std": 0.1,
+        "val_mean": 94.3,
+        "test_mean": 90.5
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": false,
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 64,
+        "weight_decay": 0.0001,
+        "post_transform": true,
+        "initial_dropout": true
+    }
+}

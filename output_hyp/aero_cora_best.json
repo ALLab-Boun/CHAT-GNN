@@ -1,0 +1,32 @@
+{
+    "sweep_id": "pue8qdud",
+    "summary": {
+        "_runtime": 101.99826884269714,
+        "val_loss": 0.428,
+        "val_mean": 89.5,
+        "_timestamp": 1703579787.8749588,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 101
+        },
+        "val_std": 0.6,
+        "test_std": 0.3,
+        "test_mean": 87.5,
+        "train_loss": 0.208
+    },
+    "config": {
+        "lr": 0.005,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 5,
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0005
+    }
+}

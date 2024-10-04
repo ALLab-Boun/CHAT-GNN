@@ -1,0 +1,30 @@
+{
+    "sweep_id": "677xwexv",
+    "summary": {
+        "_timestamp": 1703358980.0685308,
+        "train_loss": 0.375,
+        "_wandb": {
+            "runtime": 38
+        },
+        "val_loss": 0.391,
+        "_runtime": 39.6858696937561,
+        "test_std": 5.8,
+        "val_mean": 88.7,
+        "test_mean": 81.1,
+        "_step": 0,
+        "val_std": 2.1
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 2,
+        "theta_gcn2": 1.5,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

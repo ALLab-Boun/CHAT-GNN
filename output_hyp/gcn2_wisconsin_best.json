@@ -1,0 +1,30 @@
+{
+    "sweep_id": "vq3cmpsn",
+    "summary": {
+        "val_mean": 87.9,
+        "test_mean": 77.1,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 61
+        },
+        "val_loss": 0.211,
+        "_timestamp": 1703368102.6859417,
+        "train_loss": 0.276,
+        "val_std": 2.9,
+        "_runtime": 62.35280656814575,
+        "test_std": 3.4
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 5,
+        "theta_gcn2": 1,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

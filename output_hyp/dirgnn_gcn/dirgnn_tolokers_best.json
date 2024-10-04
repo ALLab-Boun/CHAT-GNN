@@ -1,0 +1,32 @@
+{
+    "sweep_id": "jgpqzday",
+    "summary": {
+        "val_std": 0,
+        "test_std": 0,
+        "train_loss": 0.424,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 301
+        },
+        "val_mean": 78.5,
+        "test_mean": 78.3,
+        "_timestamp": 1704056692.9342089,
+        "_runtime": 302.3880398273468,
+        "val_loss": 0.429
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "dirgnn",
+        "n_runs": 1,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "jk_mode": "max",
+        "dir_conv": "gcn",
+        "loglevel": "error",
+        "dir_alpha": 0.5,
+        "layer_norm": false,
+        "num_layers": 4,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

@@ -1,0 +1,15 @@
+*.env
+__pycache__
+*.ipynb
+*.log
+jobs
+logs
+*.pth
+data
+.vscode
+experiment_notes.md
+output
+wandb
+chatgnn_env
+.ruff_cache
+models

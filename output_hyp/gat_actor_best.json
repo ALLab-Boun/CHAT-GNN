@@ -1,0 +1,32 @@
+{
+    "sweep_id": "pwwmgmsw",
+    "summary": {
+        "val_std": 0.3,
+        "test_mean": 30.6,
+        "train_loss": 1.426,
+        "test_std": 0.9,
+        "val_loss": 1.414,
+        "val_mean": 32.1,
+        "_timestamp": 1700687732.7205951,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 145
+        },
+        "_runtime": 146.48477506637573
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 128,
+        "weight_decay": 0.0001,
+        "multi_out_heads": true
+    }
+}

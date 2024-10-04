@@ -1,0 +1,32 @@
+{
+    "sweep_id": "37os86ho",
+    "summary": {
+        "val_std": 0.4,
+        "_runtime": 1996.6232600212095,
+        "val_mean": 53.7,
+        "train_loss": 1.094,
+        "test_mean": 53,
+        "_timestamp": 1703561617.367762,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 1995
+        },
+        "test_std": 0.9,
+        "val_loss": 1.054
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 5,
+        "num_layers": 1,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0005
+    }
+}

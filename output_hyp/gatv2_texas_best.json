@@ -1,0 +1,30 @@
+{
+    "sweep_id": "0shwyljj",
+    "summary": {
+        "val_loss": 0.864,
+        "val_mean": 67.8,
+        "test_mean": 58.6,
+        "_timestamp": 1700902018.2499404,
+        "_wandb": {
+            "runtime": 54
+        },
+        "_runtime": 55.44025444984436,
+        "test_std": 6.7,
+        "train_loss": 0.816,
+        "_step": 0,
+        "val_std": 2.4
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "n_heads": 4,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0005
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "sweep_id": "v4ndvstn",
+    "summary": {
+        "_wandb": {
+            "runtime": 69
+        },
+        "val_std": 0.6,
+        "test_std": 0.3,
+        "val_loss": 0.311,
+        "test_mean": 90,
+        "_timestamp": 1703393178.7062347,
+        "train_loss": 0.292,
+        "_step": 0,
+        "_runtime": 70.49392175674438,
+        "val_mean": 89.8
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

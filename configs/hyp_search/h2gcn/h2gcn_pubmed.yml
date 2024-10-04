@@ -1,0 +1,20 @@
+name: h2gcn_pubmed
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: pubmed}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [16, 32, 64]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: h2gcn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [1, 2]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

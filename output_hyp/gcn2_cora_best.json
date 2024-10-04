@@ -1,0 +1,30 @@
+{
+    "sweep_id": "7f50dit2",
+    "summary": {
+        "_step": 0,
+        "val_mean": 89,
+        "train_loss": 0.147,
+        "_wandb": {
+            "runtime": 101
+        },
+        "val_std": 0.4,
+        "_runtime": 102.42303895950316,
+        "test_std": 0.4,
+        "val_loss": 0.403,
+        "test_mean": 86.7,
+        "_timestamp": 1703302806.861667
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.3,
+        "num_layers": 5,
+        "theta_gcn2": 0.5,
+        "hidden_size": 64,
+        "weight_decay": 0.0005
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "sweep_id": "379em27d",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 1150
+        },
+        "_runtime": 1151.414321422577,
+        "test_std": 0.8,
+        "val_loss": 0.345,
+        "test_mean": 85.8,
+        "_timestamp": 1705343907.923041,
+        "train_loss": 0.343,
+        "val_std": 0.3,
+        "val_mean": 86.1
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 10,
+        "save_model": true,
+        "hidden_size": 64,
+        "weight_decay": 0.0001,
+        "post_transform": true,
+        "initial_dropout": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "sweep_id": "upv55yf1",
+    "summary": {
+        "_runtime": 1063.3932671546936,
+        "test_std": 0.6,
+        "val_loss": 0.4,
+        "_timestamp": 1703707087.263107,
+        "train_loss": 0.405,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 1062
+        },
+        "val_std": 0.1,
+        "val_mean": 82.2,
+        "test_mean": 82.2
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 7,
+        "num_layers": 1,
+        "hidden_size": 64,
+        "weight_decay": 0.0005,
+        "weight_decay_prop": 0.0001
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "sweep_id": "2349bbuc",
+    "summary": {
+        "val_std": 0.2,
+        "test_std": 0.1,
+        "val_mean": 47.3,
+        "train_loss": 1.189,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 240
+        },
+        "_runtime": 241.6400384902954,
+        "val_loss": 1.194,
+        "test_mean": 46.7,
+        "_timestamp": 1703426993.4816835
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 3,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "sweep_id": "zepzjnfb",
+    "summary": {
+        "_wandb": {
+            "runtime": 236
+        },
+        "_runtime": 237.83633971214297,
+        "val_loss": 0.652,
+        "val_mean": 69.4,
+        "test_mean": 69,
+        "_step": 0,
+        "val_std": 2.5,
+        "test_std": 1.5,
+        "_timestamp": 1700703816.5652487,
+        "train_loss": 0.661
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "multi_out_heads": true
+    }
+}

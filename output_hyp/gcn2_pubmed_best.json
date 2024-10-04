@@ -1,0 +1,30 @@
+{
+    "sweep_id": "fzyavfr8",
+    "summary": {
+        "test_std": 0.3,
+        "_step": 0,
+        "val_std": 0.2,
+        "_runtime": 190.60144567489624,
+        "test_mean": 90.7,
+        "_timestamp": 1703315927.5818827,
+        "train_loss": 0.145,
+        "_wandb": {
+            "runtime": 189
+        },
+        "val_loss": 0.225,
+        "val_mean": 93.6
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 4,
+        "theta_gcn2": 1.5,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

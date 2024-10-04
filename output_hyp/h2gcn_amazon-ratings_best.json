@@ -1,0 +1,28 @@
+{
+    "sweep_id": "ymkikvdf",
+    "summary": {
+        "val_std": 0.3,
+        "test_std": 0.2,
+        "val_mean": 51.1,
+        "_timestamp": 1703375434.745456,
+        "test_mean": 50.4,
+        "train_loss": 1.004,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 401
+        },
+        "_runtime": 402.8118259906769,
+        "val_loss": 1.003
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

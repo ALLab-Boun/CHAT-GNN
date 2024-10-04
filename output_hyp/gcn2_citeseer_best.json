@@ -1,0 +1,30 @@
+{
+    "sweep_id": "94w1ld9v",
+    "summary": {
+        "_step": 0,
+        "_runtime": 131.6828806400299,
+        "val_loss": 0.693,
+        "test_mean": 79.1,
+        "_timestamp": 1703300105.5816443,
+        "_wandb": {
+            "runtime": 130
+        },
+        "val_std": 0.4,
+        "test_std": 0.2,
+        "val_mean": 81.5,
+        "train_loss": 0.42
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "citeseer",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 5,
+        "theta_gcn2": 0.5,
+        "hidden_size": 32,
+        "weight_decay": 0.0005
+    }
+}

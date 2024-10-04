@@ -1,0 +1,32 @@
+{
+    "sweep_id": "1vw6zrln",
+    "summary": {
+        "val_loss": 1.325,
+        "test_mean": 36.8,
+        "_step": 0,
+        "val_std": 0.3,
+        "test_std": 0.7,
+        "_timestamp": 1705170511.190037,
+        "train_loss": 1.328,
+        "_wandb": {
+            "runtime": 108
+        },
+        "_runtime": 109.37951898574828,
+        "val_mean": 37.8
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": false,
+        "num_layers": 8,
+        "save_model": true,
+        "hidden_size": 64,
+        "weight_decay": 0.0001,
+        "post_transform": true,
+        "initial_dropout": true
+    }
+}

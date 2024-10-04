@@ -1,0 +1,32 @@
+{
+    "sweep_id": "9aebz2pt",
+    "summary": {
+        "val_loss": 0.234,
+        "val_mean": 93.3,
+        "_timestamp": 1703597243.2227554,
+        "_wandb": {
+            "runtime": 187
+        },
+        "val_std": 0.2,
+        "_runtime": 188.8008313179016,
+        "train_loss": 0.22,
+        "_step": 0,
+        "test_std": 0.2,
+        "test_mean": 91.3
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 0.25,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 2,
+        "num_layers": 1,
+        "hidden_size": 64,
+        "weight_decay": 0.0005,
+        "weight_decay_prop": 0.0005
+    }
+}

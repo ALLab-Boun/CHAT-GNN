@@ -1,0 +1,32 @@
+{
+    "sweep_id": "g0egs3ct",
+    "summary": {
+        "_wandb": {
+            "runtime": 44
+        },
+        "train_loss": 0.2,
+        "_step": 0,
+        "val_std": 3.3,
+        "_runtime": 44.99928951263428,
+        "test_std": 1.6,
+        "val_loss": 0.183,
+        "val_mean": 88.4,
+        "test_mean": 88.2,
+        "_timestamp": 1703717417.2664566
+    },
+    "config": {
+        "lr": 0.005,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 2,
+        "num_layers": 1,
+        "hidden_size": 128,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0005
+    }
+}

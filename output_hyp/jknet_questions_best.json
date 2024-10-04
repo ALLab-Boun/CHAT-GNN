@@ -1,0 +1,29 @@
+{
+    "sweep_id": "1fzo4823",
+    "summary": {
+        "val_loss": 0.112,
+        "test_mean": 77.6,
+        "_timestamp": 1703463647.32405,
+        "train_loss": 0.112,
+        "_step": 0,
+        "test_std": 0.6,
+        "_runtime": 360.17745995521545,
+        "val_mean": 78.3,
+        "_wandb": {
+            "runtime": 359
+        },
+        "val_std": 0.9
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "questions",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 32,
+        "weight_decay": 0.0001
+    }
+}

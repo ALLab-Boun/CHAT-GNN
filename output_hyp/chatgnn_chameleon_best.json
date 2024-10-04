@@ -1,0 +1,32 @@
+{
+    "sweep_id": "jmis1ys6",
+    "summary": {
+        "val_loss": 0.874,
+        "val_mean": 72.9,
+        "test_mean": 70.6,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 512
+        },
+        "val_std": 1.2,
+        "_runtime": 513.3243741989136,
+        "test_std": 0.2,
+        "_timestamp": 1705206652.3926792,
+        "train_loss": 0.879
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 12,
+        "save_model": true,
+        "hidden_size": 256,
+        "weight_decay": 0.0005,
+        "post_transform": false,
+        "initial_dropout": true
+    }
+}

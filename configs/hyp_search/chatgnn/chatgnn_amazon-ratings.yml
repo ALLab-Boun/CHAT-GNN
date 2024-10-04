@@ -1,0 +1,26 @@
+name: chatgnn_amazon-ratings
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: amazon-ratings}
+    dropout: {value: 0.5}
+    initial_dropout: {value: false}
+    save_model: {value: true}
+    hidden_size:
+      values: [128, 256, 512]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: chatgnn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 3, 4, 5, 6]
+    weight_decay:
+      values: [0.0001, 0.0005]
+    post_transform:
+      values: [false, true]
+    layer_norm:
+      values: [false, true]
+  project: 

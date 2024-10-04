@@ -1,0 +1,30 @@
+{
+    "sweep_id": "ka46p5yb",
+    "summary": {
+        "_runtime": 347.7661101818085,
+        "val_mean": 67,
+        "_timestamp": 1700856626.872698,
+        "train_loss": 0.809,
+        "_wandb": {
+            "runtime": 346
+        },
+        "val_std": 2.1,
+        "val_loss": 0.792,
+        "test_mean": 66.3,
+        "_step": 0,
+        "test_std": 1.4
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 4,
+        "hidden_size": 512,
+        "weight_decay": 0.0001
+    }
+}

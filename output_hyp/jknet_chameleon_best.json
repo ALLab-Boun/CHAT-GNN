@@ -1,0 +1,29 @@
+{
+    "sweep_id": "lpriywpt",
+    "summary": {
+        "test_std": 2.1,
+        "val_loss": 0.767,
+        "val_mean": 67.7,
+        "_wandb": {
+            "runtime": 366
+        },
+        "_runtime": 367.2515871524811,
+        "test_mean": 66.7,
+        "_timestamp": 1703431514.36387,
+        "train_loss": 0.713,
+        "_step": 0,
+        "val_std": 2.6
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 10,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

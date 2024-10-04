@@ -1,0 +1,28 @@
+{
+    "sweep_id": "c5jmni8p",
+    "summary": {
+        "_step": 0,
+        "_runtime": 469.6651656627655,
+        "test_std": 2,
+        "val_loss": 1.277,
+        "train_loss": 1.233,
+        "_wandb": {
+            "runtime": 468
+        },
+        "val_std": 0.8,
+        "val_mean": 33.2,
+        "test_mean": 33.2,
+        "_timestamp": 1703409923.7808328
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

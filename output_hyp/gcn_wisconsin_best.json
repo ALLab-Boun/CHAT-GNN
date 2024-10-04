@@ -1,0 +1,28 @@
+{
+    "sweep_id": "rvbklgek",
+    "summary": {
+        "val_std": 4.1,
+        "test_std": 4.2,
+        "val_mean": 64.6,
+        "test_mean": 66.6,
+        "_timestamp": 1700475973.7244327,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 35
+        },
+        "_runtime": 36.47664976119995,
+        "val_loss": 0.806,
+        "train_loss": 0.854
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "wisconsin",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0005
+    }
+}

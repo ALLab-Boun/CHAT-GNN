@@ -1,0 +1,29 @@
+{
+    "sweep_id": "ondslsqv",
+    "summary": {
+        "_wandb": {
+            "runtime": 1086
+        },
+        "_runtime": 1087.4420175552368,
+        "_timestamp": 1703506264.5388424,
+        "train_loss": 0.77,
+        "_step": 0,
+        "test_std": 0.3,
+        "val_loss": 0.795,
+        "val_mean": 54.7,
+        "test_mean": 53.4,
+        "val_std": 0.3
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 10,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

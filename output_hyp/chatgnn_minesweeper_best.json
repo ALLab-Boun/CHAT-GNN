@@ -1,0 +1,32 @@
+{
+    "sweep_id": "e4dg0znh",
+    "summary": {
+        "test_std": 0.3,
+        "val_mean": 97.6,
+        "train_loss": 0.097,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 166
+        },
+        "val_std": 0.1,
+        "_runtime": 167.3957004547119,
+        "val_loss": 0.11,
+        "test_mean": 97.6,
+        "_timestamp": 1705218670.3757894
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 14,
+        "save_model": true,
+        "hidden_size": 32,
+        "weight_decay": 0.0001,
+        "post_transform": true,
+        "initial_dropout": false
+    }
+}

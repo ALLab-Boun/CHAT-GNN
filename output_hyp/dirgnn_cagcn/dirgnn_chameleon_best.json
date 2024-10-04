@@ -1,0 +1,32 @@
+{
+    "sweep_id": "m50vlc05",
+    "summary": {
+        "train_loss": 0.047,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 632
+        },
+        "test_std": 0,
+        "val_loss": 1.201,
+        "val_mean": 79.1,
+        "val_std": 0,
+        "_runtime": 633.7726395130157,
+        "test_mean": 78.3,
+        "_timestamp": 1703962022.0175796
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "dirgnn",
+        "n_runs": 1,
+        "dataset": "chameleon",
+        "dropout": 0.6,
+        "dir_conv": "cagcn",
+        "loglevel": "error",
+        "dir_alpha": 1,
+        "layer_norm": true,
+        "num_layers": 18,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "post_transform": true
+    }
+}

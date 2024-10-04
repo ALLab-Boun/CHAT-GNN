@@ -1,0 +1,29 @@
+{
+    "sweep_id": "74zqp8nq",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 74
+        },
+        "train_loss": 1.467,
+        "val_std": 0.6,
+        "_runtime": 75.95845484733582,
+        "test_std": 0.1,
+        "val_loss": 1.453,
+        "val_mean": 32.4,
+        "test_mean": 30.8,
+        "_timestamp": 1700423661.430806
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

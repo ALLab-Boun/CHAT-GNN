@@ -1,0 +1,30 @@
+{
+    "sweep_id": "wb4q5ok1",
+    "summary": {
+        "val_std": 1.3,
+        "val_loss": 1.542,
+        "val_mean": 54.2,
+        "test_mean": 53.2,
+        "_timestamp": 1700887076.4438937,
+        "train_loss": 1.536,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 293
+        },
+        "_runtime": 294.37881875038147,
+        "test_std": 0.5
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 512,
+        "weight_decay": 0.0005
+    }
+}

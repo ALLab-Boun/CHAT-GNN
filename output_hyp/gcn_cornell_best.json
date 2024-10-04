@@ -1,0 +1,28 @@
+{
+    "sweep_id": "dzejdzq2",
+    "summary": {
+        "val_std": 4.2,
+        "test_std": 4.6,
+        "_timestamp": 1700437535.6077,
+        "_wandb": {
+            "runtime": 35
+        },
+        "_runtime": 36.58853316307068,
+        "val_loss": 0.997,
+        "val_mean": 57.6,
+        "test_mean": 52.3,
+        "train_loss": 1.018,
+        "_step": 0
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0005
+    }
+}

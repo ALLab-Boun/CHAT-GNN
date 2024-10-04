@@ -1,0 +1,28 @@
+{
+    "sweep_id": "kv0e6ii2",
+    "summary": {
+        "test_mean": 75,
+        "_timestamp": 1700474606.607038,
+        "train_loss": 0.456,
+        "_wandb": {
+            "runtime": 145
+        },
+        "_runtime": 146.8007321357727,
+        "test_std": 0.7,
+        "val_loss": 0.461,
+        "val_mean": 75.2,
+        "_step": 0,
+        "val_std": 0.6
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 96,
+        "weight_decay": 0.0001
+    }
+}

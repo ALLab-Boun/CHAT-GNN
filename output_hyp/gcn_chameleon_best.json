@@ -1,0 +1,28 @@
+{
+    "sweep_id": "ny2x39zk",
+    "summary": {
+        "_step": 0,
+        "val_std": 2.2,
+        "_timestamp": 1700432379.6025417,
+        "train_loss": 0.842,
+        "_wandb": {
+            "runtime": 139
+        },
+        "_runtime": 140.76915574073792,
+        "test_std": 1.7,
+        "val_loss": 0.831,
+        "val_mean": 65.2,
+        "test_mean": 66
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

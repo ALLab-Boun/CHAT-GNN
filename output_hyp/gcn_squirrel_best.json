@@ -1,0 +1,28 @@
+{
+    "sweep_id": "yej0ewvn",
+    "summary": {
+        "val_std": 0.3,
+        "_runtime": 902.8986310958862,
+        "val_loss": 1.247,
+        "val_mean": 49.7,
+        "test_mean": 49.7,
+        "train_loss": 1.153,
+        "_wandb": {
+            "runtime": 901
+        },
+        "test_std": 0.6,
+        "_timestamp": 1700465153.386883,
+        "_step": 0
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 4,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

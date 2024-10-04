@@ -1,0 +1,22 @@
+name: fagcn_squirrel
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: squirrel}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 128, 256, 512]
+    eps:
+      values: [0.2, 0.3, 0.4, 0.5]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: fagcn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 4, 6, 8]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

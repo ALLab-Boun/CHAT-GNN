@@ -1,0 +1,26 @@
+name: dir_chatgnn_chameleon
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: chameleon}
+    loglevel: {value: error}
+    model: {value: dirgnn}
+    dir_conv: {value: chatgnn}
+    n_runs: {value: 1}
+    post_transform: {value: true}
+    layer_norm: {value: true}
+    initial_dropout: {value: true}
+    dir_alpha: {value: 1}
+    dropout:
+      values: [0.5, 0.6]
+    hidden_size:
+      values: [128, 256, 512]
+    lr:
+      values: [0.005, 0.01]
+    num_layers:
+      values: [4, 6, 8, 10, 12, 14, 16]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

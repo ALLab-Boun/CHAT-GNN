@@ -1,0 +1,24 @@
+name: cngcn_tolokers
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: tolokers}
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 96]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: cngcn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 3, 4, 5, 6, 7, 8]
+    scale:
+      values: [0.2, 0.5, 0.8, 1]
+    tau:
+      values: [1, 1.5, 2, 3]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

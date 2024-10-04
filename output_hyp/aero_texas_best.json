@@ -1,0 +1,32 @@
+{
+    "sweep_id": "2zpetf9v",
+    "summary": {
+        "_step": 0,
+        "val_std": 2.9,
+        "test_std": 3.8,
+        "val_mean": 90.4,
+        "train_loss": 0.482,
+        "_wandb": {
+            "runtime": 44
+        },
+        "_runtime": 45.142494440078735,
+        "val_loss": 0.764,
+        "test_mean": 86.5,
+        "_timestamp": 1703698294.7099135
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 2,
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0001
+    }
+}

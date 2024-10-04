@@ -1,0 +1,29 @@
+{
+    "sweep_id": "eo2hxr73",
+    "summary": {
+        "val_mean": 82.3,
+        "_timestamp": 1703515833.9782372,
+        "train_loss": 0.43,
+        "_step": 0,
+        "val_std": 0.5,
+        "_runtime": 290.7192060947418,
+        "test_std": 0.1,
+        "val_loss": 0.43,
+        "_wandb": {
+            "runtime": 289
+        },
+        "test_mean": 82.3
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "tolokers",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 6,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

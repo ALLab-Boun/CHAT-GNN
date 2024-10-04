@@ -1,0 +1,28 @@
+{
+    "sweep_id": "od8blwka",
+    "summary": {
+        "val_std": 0.2,
+        "_runtime": 115.7109067440033,
+        "val_loss": 0.75,
+        "_timestamp": 1703385896.5358448,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 114
+        },
+        "test_std": 0.3,
+        "val_mean": 81.5,
+        "test_mean": 78.7,
+        "train_loss": 0.605
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "citeseer",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 1,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

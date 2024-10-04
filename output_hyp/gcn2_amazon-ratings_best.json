@@ -1,0 +1,30 @@
+{
+    "sweep_id": "zvz7145c",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 688
+        },
+        "val_std": 0.3,
+        "test_std": 0.3,
+        "val_mean": 52.9,
+        "test_mean": 52.1,
+        "_runtime": 688.8966996669769,
+        "val_loss": 0.923,
+        "_timestamp": 1703283305.6494646,
+        "train_loss": 0.94
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 4,
+        "theta_gcn2": 1.5,
+        "hidden_size": 512,
+        "weight_decay": 0.0001
+    }
+}

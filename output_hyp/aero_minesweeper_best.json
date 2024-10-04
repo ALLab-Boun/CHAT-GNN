@@ -1,0 +1,32 @@
+{
+    "sweep_id": "yphsgyx5",
+    "summary": {
+        "val_loss": 0.297,
+        "test_mean": 92.8,
+        "train_loss": 0.281,
+        "_wandb": {
+            "runtime": 945
+        },
+        "val_std": 0.5,
+        "_runtime": 946.0545239448549,
+        "_timestamp": 1703588544.014852,
+        "_step": 0,
+        "test_std": 0.2,
+        "val_mean": 92.4
+    },
+    "config": {
+        "lr": 0.005,
+        "lambd": 0.5,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 10,
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0005,
+        "weight_decay_prop": 0.0001
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "sweep_id": "7vg6zob7",
+    "summary": {
+        "_wandb": {
+            "runtime": 47
+        },
+        "val_std": 6.9,
+        "_timestamp": 1700864139.4610355,
+        "val_mean": 59.3,
+        "test_mean": 48.7,
+        "train_loss": 1.025,
+        "_step": 0,
+        "_runtime": 48.44607663154602,
+        "test_std": 3.9,
+        "val_loss": 0.926
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0005
+    }
+}

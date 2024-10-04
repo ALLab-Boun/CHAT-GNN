@@ -1,0 +1,28 @@
+{
+    "sweep_id": "7cow3atm",
+    "summary": {
+        "_timestamp": 1703401620.8749075,
+        "train_loss": 0.118,
+        "_wandb": {
+            "runtime": 893
+        },
+        "val_std": 1,
+        "val_mean": 71.5,
+        "val_loss": 0.12,
+        "test_mean": 71.3,
+        "_step": 0,
+        "_runtime": 894.113297700882,
+        "test_std": 0.9
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "questions",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 16,
+        "weight_decay": 0.0001
+    }
+}

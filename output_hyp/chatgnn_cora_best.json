@@ -1,0 +1,32 @@
+{
+    "sweep_id": "kx2j0f92",
+    "summary": {
+        "val_loss": 0.394,
+        "_timestamp": 1705214697.8009515,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 63
+        },
+        "_runtime": 64.4435224533081,
+        "test_mean": 87.6,
+        "train_loss": 0.153,
+        "val_std": 0.1,
+        "test_std": 0.4,
+        "val_mean": 89.3
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": false,
+        "num_layers": 5,
+        "save_model": true,
+        "hidden_size": 32,
+        "weight_decay": 0.0005,
+        "post_transform": false,
+        "initial_dropout": true
+    }
+}

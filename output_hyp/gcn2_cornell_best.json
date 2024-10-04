@@ -1,0 +1,30 @@
+{
+    "sweep_id": "sjufehxm",
+    "summary": {
+        "val_loss": 0.702,
+        "val_mean": 76.8,
+        "train_loss": 0.803,
+        "_wandb": {
+            "runtime": 32
+        },
+        "val_std": 6.9,
+        "_runtime": 33.2038049697876,
+        "_timestamp": 1703305643.900697,
+        "_step": 0,
+        "test_std": 5.5,
+        "test_mean": 73.9
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.5,
+        "num_layers": 2,
+        "theta_gcn2": 1.5,
+        "hidden_size": 128,
+        "weight_decay": 0.0001
+    }
+}

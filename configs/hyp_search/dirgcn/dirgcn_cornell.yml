@@ -1,0 +1,22 @@
+name: dirgcn_cornell
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: cornell}
+    dir_alpha:
+      values: [0, 0.5, 1]
+    dropout: {value: 0.5}
+    hidden_size:
+      values: [64, 128]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: dirgcn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 4, 6, 8, 10]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

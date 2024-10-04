@@ -1,0 +1,31 @@
+{
+    "sweep_id": "q071d6gc",
+    "summary": {
+        "_wandb": {
+            "runtime": 97
+        },
+        "test_std": 0.3,
+        "val_mean": 90.8,
+        "test_mean": 87,
+        "_step": 0,
+        "val_std": 0,
+        "_runtime": 98.0242075920105,
+        "val_loss": 0.325,
+        "_timestamp": 1700720015.7264977,
+        "train_loss": 0.359
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001,
+        "multi_out_heads": true
+    }
+}

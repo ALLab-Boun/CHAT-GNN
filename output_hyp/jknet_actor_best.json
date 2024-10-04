@@ -1,0 +1,30 @@
+{
+    "sweep_id": "m6fw1xc8",
+    "summary": {
+        "train_loss": 1.307,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 258
+        },
+        "val_std": 0.2,
+        "_runtime": 259.00440073013306,
+        "val_loss": 1.297,
+        "val_mean": 38.6,
+        "test_mean": 36,
+        "test_std": 0.5,
+        "_timestamp": 1703422387.142969
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "jk_mode": "lstm",
+        "loglevel": "error",
+        "num_layers": 4,
+        "save_model": true,
+        "hidden_size": 32,
+        "weight_decay": 0.0001
+    }
+}

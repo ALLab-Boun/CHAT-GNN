@@ -1,0 +1,29 @@
+{
+    "sweep_id": "yyfizzr1",
+    "summary": {
+        "val_std": 3.7,
+        "_runtime": 78.2231936454773,
+        "test_std": 3.8,
+        "val_loss": 0.826,
+        "val_mean": 88.1,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 77
+        },
+        "test_mean": 81.1,
+        "_timestamp": 1703510971.983173,
+        "train_loss": 0.339
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "jk_mode": "lstm",
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

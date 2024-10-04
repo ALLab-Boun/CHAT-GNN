@@ -1,0 +1,31 @@
+{
+    "sweep_id": "mfopvlt4",
+    "summary": {
+        "_runtime": 118.39370393753052,
+        "test_std": 0.9,
+        "val_loss": 1.169,
+        "train_loss": 1.17,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 117
+        },
+        "test_mean": 60.8,
+        "_timestamp": 1700732037.3189158,
+        "val_std": 0.4,
+        "val_mean": 61.8
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "multi_out_heads": true
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "sweep_id": "glv24x19",
+    "summary": {
+        "val_std": 0.2,
+        "_runtime": 438.56577014923096,
+        "test_std": 0.3,
+        "test_mean": 46.6,
+        "_timestamp": 1700694356.1379852,
+        "train_loss": 1.186,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 437
+        },
+        "val_loss": 1.178,
+        "val_mean": 46.8
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "amazon-ratings",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 4,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "multi_out_heads": true
+    }
+}

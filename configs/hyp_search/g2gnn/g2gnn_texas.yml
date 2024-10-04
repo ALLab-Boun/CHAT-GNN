@@ -1,0 +1,27 @@
+name: g2gnn_texas
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: texas}
+    dropout: {value: 0.5}
+    g2_conv:
+      values: [gcn, gat, sage]
+    g2_p:
+      values: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+    g2_shared:
+      values: [false, true]
+    hidden_size:
+      values: [32, 64, 128, 256, 512]
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: g2gnn}
+    n_heads: {value: 4}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 4, 8, 16, 32]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

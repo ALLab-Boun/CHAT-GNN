@@ -1,0 +1,28 @@
+{
+    "sweep_id": "17qjbjut",
+    "summary": {
+        "_runtime": 223.32869815826416,
+        "test_mean": 90.3,
+        "_timestamp": 1703398950.2280362,
+        "train_loss": 0.213,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 222
+        },
+        "val_std": 0.2,
+        "test_std": 0.3,
+        "val_loss": 0.237,
+        "val_mean": 92.6
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "pubmed",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 16,
+        "weight_decay": 0.0001
+    }
+}

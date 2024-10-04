@@ -1,0 +1,30 @@
+{
+    "sweep_id": "sdbutfhs",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 594
+        },
+        "test_std": 0.5,
+        "val_loss": 0.117,
+        "val_mean": 75.7,
+        "_timestamp": 1703321897.0230024,
+        "val_std": 0.7,
+        "_runtime": 595.3146133422852,
+        "test_mean": 74.8,
+        "train_loss": 0.117
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "questions",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.2,
+        "num_layers": 10,
+        "theta_gcn2": 0.5,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

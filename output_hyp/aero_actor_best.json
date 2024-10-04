@@ -1,0 +1,33 @@
+{
+    "sweep_id": "b5l1i64c",
+    "summary": {
+        "val_std": 1,
+        "_runtime": 102.47081542015076,
+        "test_std": 1.1,
+        "test_mean": 35.8,
+        "train_loss": 1.4,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 101
+        },
+        "val_loss": 1.387,
+        "val_mean": 37.7,
+        "_timestamp": 1703522282.6128645
+    },
+    "config": {
+        "lr": 0.005,
+        "lambd": 1,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 4,
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 16,
+        "weight_decay": 0.0005,
+        "weight_decay_prop": 0.0005
+    }
+}

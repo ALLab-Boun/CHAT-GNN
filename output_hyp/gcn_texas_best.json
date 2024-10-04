@@ -1,0 +1,28 @@
+{
+    "sweep_id": "l95uzo37",
+    "summary": {
+        "_step": 0,
+        "val_std": 2.9,
+        "test_std": 4.4,
+        "_timestamp": 1700470938.0141964,
+        "_wandb": {
+            "runtime": 41
+        },
+        "_runtime": 41.86467146873474,
+        "val_loss": 0.876,
+        "val_mean": 68.4,
+        "test_mean": 62.2,
+        "train_loss": 0.868
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "texas",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 128,
+        "weight_decay": 0.0005
+    }
+}

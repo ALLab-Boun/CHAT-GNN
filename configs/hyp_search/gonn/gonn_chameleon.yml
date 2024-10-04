@@ -1,0 +1,27 @@
+name: gonn_chameleon
+sweep_config:
+  entity: 
+  method: bayes
+  metric: {goal: maximize, name: val_mean}
+  parameters:
+    dataset: {value: chameleon}
+    dropout:
+      values: [0.1, 0.2, 0.3, 0.4, 0.5]
+    hidden_size: {value: 256}
+    loglevel: {value: error}
+    lr:
+      values: [0.005, 0.01]
+    model: {value: gonn}
+    n_runs: {value: 3}
+    num_layers:
+      values: [2, 3, 4, 5, 6, 7, 8, 8, 10]
+    og_chunk_size: {value: 64}
+    og_global_gating:
+      values: [true, false]
+    og_num_input_layers:
+      values: [1, 2, 3]
+    og_simple_gating:
+      values: [true, false]
+    weight_decay:
+      values: [0.0001, 0.0005]
+  project: 

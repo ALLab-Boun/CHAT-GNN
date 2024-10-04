@@ -1,0 +1,28 @@
+{
+    "sweep_id": "9wse5f3i",
+    "summary": {
+        "_wandb": {
+            "runtime": 371
+        },
+        "val_std": 0.1,
+        "_runtime": 372.2240135669708,
+        "test_std": 0.4,
+        "_timestamp": 1700458820.0366995,
+        "train_loss": 1.25,
+        "_step": 0,
+        "val_loss": 1.258,
+        "val_mean": 52.4,
+        "test_mean": 51.9
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "roman-empire",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

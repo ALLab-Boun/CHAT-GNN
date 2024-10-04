@@ -1,0 +1,28 @@
+{
+    "sweep_id": "md1tzba4",
+    "summary": {
+        "_timestamp": 1703387193.884996,
+        "_wandb": {
+            "runtime": 53
+        },
+        "val_std": 0.1,
+        "test_std": 0.4,
+        "val_mean": 89.1,
+        "test_mean": 87.5,
+        "train_loss": 0.183,
+        "_step": 0,
+        "_runtime": 54.82095694541931,
+        "val_loss": 0.401
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "h2gcn",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

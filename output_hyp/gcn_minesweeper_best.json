@@ -1,0 +1,28 @@
+{
+    "sweep_id": "hsmtbmu0",
+    "summary": {
+        "test_mean": 72.6,
+        "_timestamp": 1700439223.8207564,
+        "_wandb": {
+            "runtime": 53
+        },
+        "val_mean": 71.6,
+        "_runtime": 53.98478055000305,
+        "test_std": 1.1,
+        "val_loss": 0.45,
+        "train_loss": 0.451,
+        "_step": 0,
+        "val_std": 0.7
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0005
+    }
+}

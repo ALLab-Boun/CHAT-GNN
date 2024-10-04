@@ -1,0 +1,32 @@
+{
+    "sweep_id": "atw07h0k",
+    "summary": {
+        "_timestamp": 1705216608.0919008,
+        "train_loss": 0.74,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 37
+        },
+        "_runtime": 38.797120809555054,
+        "test_std": 1.3,
+        "test_mean": 79.3,
+        "val_std": 6.5,
+        "val_loss": 0.55,
+        "val_mean": 84.2
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 128,
+        "weight_decay": 0.0005,
+        "post_transform": true,
+        "initial_dropout": true
+    }
+}

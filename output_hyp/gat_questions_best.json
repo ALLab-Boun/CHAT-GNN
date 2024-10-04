@@ -1,0 +1,31 @@
+{
+    "sweep_id": "4bk47oau",
+    "summary": {
+        "_step": 0,
+        "_wandb": {
+            "runtime": 211
+        },
+        "test_std": 0.3,
+        "val_mean": 71,
+        "train_loss": 0.135,
+        "val_std": 0.5,
+        "_runtime": 212.02434659004211,
+        "val_loss": 0.135,
+        "test_mean": 70.9,
+        "_timestamp": 1700723450.0216796
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gat",
+        "n_runs": 3,
+        "dataset": "questions",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "hidden_size": 256,
+        "weight_decay": 0.0005,
+        "multi_out_heads": false
+    }
+}

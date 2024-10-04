@@ -1,0 +1,30 @@
+{
+    "sweep_id": "0o085tsx",
+    "summary": {
+        "_timestamp": 1703310520.171867,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 161
+        },
+        "val_std": 0.6,
+        "test_std": 0.5,
+        "val_loss": 0.346,
+        "_runtime": 162.71994972229004,
+        "val_mean": 90.2,
+        "test_mean": 90.5,
+        "train_loss": 0.334
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gcn2",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "alpha_gcn2": 0.4,
+        "num_layers": 8,
+        "theta_gcn2": 1.5,
+        "hidden_size": 256,
+        "weight_decay": 0.0001
+    }
+}

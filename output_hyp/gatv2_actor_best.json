@@ -1,0 +1,31 @@
+{
+    "sweep_id": "yfvwr501",
+    "summary": {
+        "val_mean": 31.8,
+        "train_loss": 1.544,
+        "_wandb": {
+            "runtime": 76
+        },
+        "val_std": 0.3,
+        "_runtime": 77.06269717216492,
+        "val_loss": 1.531,
+        "_step": 0,
+        "test_std": 1.5,
+        "test_mean": 30.5,
+        "_timestamp": 1700843094.8939142
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "gatv2",
+        "n_runs": 3,
+        "dataset": "actor",
+        "dropout": 0.5,
+        "n_heads": 8,
+        "loglevel": "error",
+        "activation": "elu",
+        "num_layers": 2,
+        "save_model": true,
+        "hidden_size": 128,
+        "weight_decay": 0.0005
+    }
+}

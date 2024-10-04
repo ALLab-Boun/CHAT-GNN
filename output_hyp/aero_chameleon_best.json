@@ -1,0 +1,32 @@
+{
+    "sweep_id": "djxhh10m",
+    "summary": {
+        "_wandb": {
+            "runtime": 690
+        },
+        "val_loss": 1.305,
+        "val_mean": 69.9,
+        "test_mean": 69.1,
+        "train_loss": 1.703,
+        "_step": 0,
+        "val_std": 2.3,
+        "_runtime": 691.108250617981,
+        "test_std": 1.3,
+        "_timestamp": 1703570791.2960167
+    },
+    "config": {
+        "lr": 0.01,
+        "lambd": 1,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "chameleon",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 8,
+        "num_layers": 1,
+        "hidden_size": 512,
+        "weight_decay": 0.0001,
+        "weight_decay_prop": 0.0001
+    }
+}

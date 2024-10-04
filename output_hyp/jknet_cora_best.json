@@ -1,0 +1,29 @@
+{
+    "sweep_id": "qymnrzu0",
+    "summary": {
+        "val_std": 0.6,
+        "_runtime": 83.0601589679718,
+        "test_mean": 86.2,
+        "_wandb": {
+            "runtime": 82
+        },
+        "test_std": 0.2,
+        "val_loss": 0.498,
+        "val_mean": 88.6,
+        "_timestamp": 1703443294.9727309,
+        "train_loss": 0.144,
+        "_step": 0
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "cora",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 4,
+        "hidden_size": 32,
+        "weight_decay": 0.0005
+    }
+}

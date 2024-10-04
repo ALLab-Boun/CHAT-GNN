@@ -1,0 +1,32 @@
+{
+    "sweep_id": "osdnclrg",
+    "summary": {
+        "val_mean": 82.5,
+        "_timestamp": 1703583274.5210872,
+        "train_loss": 0.676,
+        "val_loss": 0.496,
+        "_wandb": {
+            "runtime": 45
+        },
+        "val_std": 5.6,
+        "_runtime": 46.13813519477844,
+        "test_std": 1.3,
+        "test_mean": 84.7,
+        "_step": 0
+    },
+    "config": {
+        "lr": 0.005,
+        "lambd": 0.25,
+        "model": "aero",
+        "n_runs": 3,
+        "dataset": "cornell",
+        "dropout": 0.5,
+        "n_heads": 1,
+        "loglevel": "error",
+        "iterations": 2,
+        "num_layers": 2,
+        "hidden_size": 64,
+        "weight_decay": 0.0005,
+        "weight_decay_prop": 0.0005
+    }
+}

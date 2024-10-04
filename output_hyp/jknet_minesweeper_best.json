@@ -1,0 +1,29 @@
+{
+    "sweep_id": "xce2gmrt",
+    "summary": {
+        "_step": 0,
+        "val_loss": 0.358,
+        "val_mean": 87.9,
+        "_timestamp": 1703446915.0213144,
+        "train_loss": 0.349,
+        "_wandb": {
+            "runtime": 133
+        },
+        "val_std": 0.5,
+        "_runtime": 134.36158728599548,
+        "test_std": 0.8,
+        "test_mean": 88.2
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "jknet",
+        "n_runs": 3,
+        "dataset": "minesweeper",
+        "dropout": 0.5,
+        "jk_mode": "cat",
+        "loglevel": "error",
+        "num_layers": 8,
+        "hidden_size": 64,
+        "weight_decay": 0.0001
+    }
+}

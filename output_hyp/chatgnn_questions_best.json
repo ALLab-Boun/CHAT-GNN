@@ -1,0 +1,32 @@
+{
+    "sweep_id": "eq9s4vkf",
+    "summary": {
+        "val_std": 0.7,
+        "_runtime": 279.0582330226898,
+        "test_std": 0.7,
+        "val_mean": 78.6,
+        "test_mean": 78.1,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 278
+        },
+        "val_loss": 0.105,
+        "_timestamp": 1705229279.962253,
+        "train_loss": 0.106
+    },
+    "config": {
+        "lr": 0.01,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "questions",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 10,
+        "save_model": true,
+        "hidden_size": 32,
+        "weight_decay": 0.0005,
+        "post_transform": false,
+        "initial_dropout": false
+    }
+}

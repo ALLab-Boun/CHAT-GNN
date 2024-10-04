@@ -1,0 +1,32 @@
+{
+    "sweep_id": "h1ayvnob",
+    "summary": {
+        "val_loss": 0.998,
+        "val_mean": 65,
+        "test_mean": 64.9,
+        "_step": 0,
+        "_wandb": {
+            "runtime": 2654
+        },
+        "val_std": 1.3,
+        "_runtime": 2655.364447593689,
+        "test_std": 1.3,
+        "_timestamp": 1705266841.1128905,
+        "train_loss": 1.005
+    },
+    "config": {
+        "lr": 0.005,
+        "model": "chatgnn",
+        "n_runs": 3,
+        "dataset": "squirrel",
+        "dropout": 0.5,
+        "loglevel": "error",
+        "layer_norm": true,
+        "num_layers": 12,
+        "save_model": true,
+        "hidden_size": 256,
+        "weight_decay": 0.0005,
+        "post_transform": false,
+        "initial_dropout": true
+    }
+}
