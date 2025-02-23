@@ -1,6 +1,6 @@
 # CHAT-GNN
 
-This is the official repository of "Channel-Attentive Graph Neural Networks, ICDM 2024".
+This is the official repository of ["Channel-Attentive Graph Neural Networks, ICDM 2024"](https://ieeexplore.ieee.org/document/10884168).
 
 ## Setup
 
@@ -59,17 +59,13 @@ Due to page limits, we have included the proofs and the model architecture diagr
 
 ## Bibtex
 
-(Soon...)
-
-<!-- ```
+```
 @inproceedings{karabulut2024channel,
   author={Karabulut, Tuğrul Hasan and Baytaş, İnci M.},
-  booktitle={2024 IEEE International Conference on Data Mining (ICDM)}, 
-  title={Channel-Attentive Graph Neural Networks}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={},
-  doi={}
+  booktitle={2024 IEEE International Conference on Data Mining (ICDM)},
+  title={Channel-Attentive Graph Neural Networks},
+  year={2024},
+  pages={729-734},
+  doi={10.1109/ICDM59182.2024.00084}
 }
-``` -->
+```
