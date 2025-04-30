@@ -61,7 +61,7 @@ Due to page limits, we have included the proofs and the model architecture diagr
 
 ```
 @inproceedings{karabulut2024channel,
-  author={Karabulut, Tuğrul Hasan and Baytaş, İnci M.},
+  author={Karabulut, Tugrul Hasan and Baytas, Inci M.},
   booktitle={2024 IEEE International Conference on Data Mining (ICDM)},
   title={Channel-Attentive Graph Neural Networks},
   year={2024},
